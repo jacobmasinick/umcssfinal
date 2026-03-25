@@ -1,0 +1,107 @@
+html {min-height: 100%;}
+body {
+    background-image: linear-gradient(#18161ad3, #292422d3), url("images/library_image.jpg");
+    background-size: cover;
+    background-color: #242735;
+    display: block;
+    color: #b4b3c0;
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
+    margin:0 auto;
+    margin-top: 20px;
+    width: 80%;
+
+}
+header {
+    background-color: #1f2130;
+    border: 2px solid #000000;
+    }
+#navigation {
+    width:100%;
+    }
+#navigation a{
+    text-decoration: none;
+    color: #7f7dff;
+    padding: 5px;
+    font-size: 18px;
+    }
+#navigation_links {
+    display:flex;
+    grid-auto-flow:column;
+    justify-content:space-around;
+    }
+#navigation li{list-style-type: none;}
+#navigation a:hover {
+    color: #000000;
+    background-color:#948cbe;
+}
+
+#jump {
+position: inline;
+text-decoration: none;
+background-color: #4b4f6d;
+padding: 5px 10px 5px 10px;
+border: 2px solid #000000;
+color: #ffffff;
+text-align: center;
+margin-left: -50%;
+font-size: .75rem;
+}
+#jump:hover {
+border: 2px solid #9ca3dc;
+color: #ffffff;
+background-color: #000000;
+}
+#jump:focus{margin-left:1%;}
+
+#title {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    text-align:center;
+    color: #d1d4ff;
+
+}
+
+#main_content{
+display: grid;
+justify-items: center;
+}
+#main_section{
+border: 2px solid #000000;
+background-color: #3c3c6191;
+padding: 10px;
+margin-top: 10px;
+margin-bottom:10px;
+width: 50%;}
+
+#main_section h1 {margin:0px; color: #d4deff; text-align: center;}
+.article{
+width: 700px;
+margin: 15px 0px 15px 0px;
+display: grid;
+grid-template-columns: 40% 60%;
+align-items:center;
+}
+.article:hover{border: 2px solid #000000;
+margin: 13px -2px 13px -2px;
+background-color: #3c3c6191;
+}
+article:nth-child(even):hover{background-image: linear-gradient(to left,#2f2d4d2a, #000000bb)}
+article:nth-child(odd):hover{background-image: linear-gradient(to right, #2f2d4d2a, #000000bb)}
+
+.item_image{
+width: 200px;
+margin: 10px;
+border: 2px solid #6d6daf;
+}
+
+
+#foot {
+    background-color: #1f2130;
+    border: 2px solid #000000;
+    color:#ffffff;
+    text-align: center;
+    }
+
+.item_name{color: #ffafaf}
+.item_subname{color: #5fbcff;}
